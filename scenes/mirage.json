@@ -1,0 +1,44 @@
+{
+  "accelerator": {
+    "type": "bvh",
+    "builder": "sah"
+  },
+  "airDensityShift": {
+    "max_height": 1.4,
+    "transform": [
+      {
+        "translate": [ 5, -23, 0 ]
+      }
+    ],
+    "size": [
+      20,
+      15
+    ],
+    "layers": [
+      {
+        "ratioEta": 1.0004,
+        "height": 0.55
+      },
+      {
+        "ratioEta": 1.003,
+        "height": 0.51
+      },
+      {
+        "ratioEta": 1.002,
+        "height": 0.42
+      },
+      {
+        "ratioEta": 1.001,
+        "height": 0.40
+      },
+      {
+        "ratioEta": 1.003,
+        "height": 0.39
+      },
+      {
+        "ratioEta": 1.008,
+        "height": 0.37
+      }
+    ]
+  }
+}

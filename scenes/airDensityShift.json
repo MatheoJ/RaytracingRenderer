@@ -1,0 +1,30 @@
+{
+  "airDensityShift": {
+    "max_height": 0.75,
+    "transform": [
+      {
+        "translate": [ 0, 0, 0 ]
+      }
+    ],
+    "size": [
+      15.5,
+      44.2
+    ],
+    "layers": [
+      {
+        "eta": 0.98
+      },
+      {
+        "eta": 0.96
+      },
+      {
+        "eta": 0.94
+      },
+      {
+        "eta": 0.92
+      },
+      {
+        "eta": 0.90
+      }
+    ]
+  }

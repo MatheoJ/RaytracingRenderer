@@ -1,0 +1,10 @@
+{
+  "integrator": {
+    "type": "path",
+    "max_depth" :  2
+  },
+  "accelerator": {
+    "type": "bvh",
+    "builder": "median"
+  }
+}

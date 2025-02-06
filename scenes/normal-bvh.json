@@ -1,0 +1,8 @@
+{
+    "integrator" : {
+        "type" : "normal"
+    },
+    "accelerator" : {
+        "type" : "bvh"
+    }
+}

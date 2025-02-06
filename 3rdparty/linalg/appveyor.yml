@@ -1,0 +1,67 @@
+version: 3.0.{build}
+
+configuration:
+
+- Debug
+
+platform:
+
+- x64
+- x86
+
+image:
+
+- Visual Studio 2019
+- Visual Studio 2017
+- Visual Studio 2015
+
+# Disable build through solution file
+build: off
+
+# Build through commands in script below
+test_script:
+
+- ps: >-
+
+    echo $env:APPVEYOR_BUILD_WORKER_IMAGE
+
+    cd samples
+
+    if($env:APPVEYOR_BUILD_WORKER_IMAGE -eq "Visual Studio 2019")
+    {
+        if($env:PLATFORM -eq "x64")
+        {
+            cmake . -B build -G "Visual Studio 16 2019" -A x64
+        }
+        if($env:PLATFORM -eq "x86")
+        {
+            cmake . -B build -G "Visual Studio 16 2019" -A Win32
+        }
+    }    
+    if($env:APPVEYOR_BUILD_WORKER_IMAGE -eq "Visual Studio 2017")
+    {
+        if($env:PLATFORM -eq "x64")
+        {
+            cmake . -B build -G "Visual Studio 15 2017 Win64"
+        }
+        if($env:PLATFORM -eq "x86")
+        {
+            cmake . -B build -G "Visual Studio 15 2017"
+        }
+    }
+    if($env:APPVEYOR_BUILD_WORKER_IMAGE -eq "Visual Studio 2015")
+    {
+        if($env:PLATFORM -eq "x64")
+        {
+            cmake . -B build -G "Visual Studio 14 2015 Win64"
+        }
+        if($env:PLATFORM -eq "x86")
+        {
+            cmake . -B build -G "Visual Studio 14 2015"
+        }        
+    }
+    
+    cmake --build build
+    
+    bin\Debug\linalg-test.exe
+    

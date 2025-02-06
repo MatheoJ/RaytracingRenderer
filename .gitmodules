@@ -1,0 +1,27 @@
+[submodule "3rdparty/tinyexr"]
+	path = 3rdparty/tinyexr
+	url = https://github.com/syoyo/tinyexr
+[submodule "3rdparty/spdlog"]
+	path = 3rdparty/spdlog
+	url = https://github.com/gabime/spdlog
+[submodule "3rdparty/json"]
+	path = 3rdparty/json
+	url = https://github.com/nlohmann/json
+[submodule "3rdparty/tinyobjloader"]
+	path = 3rdparty/tinyobjloader
+	url = https://github.com/tinyobjloader/tinyobjloader
+[submodule "3rdparty/stb"]
+	path = 3rdparty/stb
+	url = https://github.com/nothings/stb.git
+[submodule "3rdparty/linalg"]
+	path = 3rdparty/linalg
+	url = https://github.com/sgorsten/linalg
+[submodule "3rdparty/argparse"]
+	path = 3rdparty/argparse
+	url = https://github.com/p-ranav/argparse
+[submodule "3rdparty/nanothread"]
+	path = 3rdparty/nanothread
+	url = https://github.com/beltegeuse/nanothread
+[submodule "3rdparty/pcg32"]
+	path = 3rdparty/pcg32
+	url = https://github.com/wjakob/pcg32.git

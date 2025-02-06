@@ -1,0 +1,11 @@
+{
+  "accelerator": {
+    "type": "bvh",
+    "builder": "sah"
+  },
+  "background": {
+    "type": "texture",
+    "filename": "scenes/assets/hdri/drackenstein_quarry_2k.exr",
+    "scale": 1.0
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "integrator": {
+    "type": "direct",
+    "strategy": "mis"
+  },
+  "accelerator": {
+    "type": "bvh",
+    "builder": "median"
+  }
+}

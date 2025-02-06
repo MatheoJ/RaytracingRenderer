@@ -1,0 +1,6 @@
+{
+    "accelerator": {
+      "type": "bvh",
+      "builder": "sah"
+    }
+}

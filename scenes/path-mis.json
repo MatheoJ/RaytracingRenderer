@@ -1,0 +1,9 @@
+{
+  "integrator": {
+    "type": "path_mis"
+  },
+  "accelerator": {
+    "type": "bvh",
+    "builder": "median"
+  }
+}

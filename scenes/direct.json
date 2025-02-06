@@ -1,0 +1,10 @@
+{
+  "integrator": {
+    "type": "direct",
+    "strategy": "bsdf"
+  },
+  "accelerator": {
+    "type": "bvh",
+    "builder": "sah"
+  }
+}
