@@ -5,6 +5,10 @@ This project is a **C++ Ray Tracing Engine** developed as part of a ray tracing 
 
 The implementation follows a physically-based rendering (PBR) approach and covers essential techniques for ray tracing, including intersection calculations, material shading, and advanced sampling methods.
 
+Final Render           |  Some materials
+:-------------------------:|:-------------------------:
+![](images/Rendu_final.png)  |  ![](images/AllMaterial.png)
+
 In this engine I implemented the following features:
 
 ## Features Implemented
