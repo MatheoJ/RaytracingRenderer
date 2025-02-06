@@ -46,3 +46,6 @@ scripts/*.png
 scripts/*.zip
 *.patch
 transparency/
+
+# JetBrains
+.idea/
