@@ -38,4 +38,7 @@ In this engine I implemented the following features:
   - Monte Carlo integration
 
 On top of those features, I implemented **Ray bending from the air refraction**, this allowed to render mirage,
-As  well as **Instancing** and procedural **Dune generation **
+As  well as **Instancing** and procedural **Dune generation**
+
+
+
